@@ -1,0 +1,53 @@
+body {margin:0;}
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: #FFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #590963;
+}
+
+#main {
+  padding:20px;
+  margin-top:30px;
+  background-color: #222;
+  color: #FFF;
+  height:1500px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+#picture {
+  width: 75%;
+}
+
+@media only screen and (min-width: 768px) {
+  #picture {
+    width: 25%;
+  }
